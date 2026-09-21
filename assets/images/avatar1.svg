@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="48" fill="#FCD9B8" stroke="#FC5E1F" stroke-width="3"/>
-  <text x="50" y="60" font-family="Poppins, sans-serif" font-weight="800" font-size="34" fill="#FC5E1F" text-anchor="middle">RS</text>
+  <circle cx="50" cy="50" r="48" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  <text x="50" y="60" font-family="Poppins, sans-serif" font-weight="800" font-size="34" fill="#2563EB" text-anchor="middle">RS</text>
 </svg>

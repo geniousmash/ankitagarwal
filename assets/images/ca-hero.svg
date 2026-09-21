@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650" width="100%" height="100%">
   <defs>
     <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FC5E1F" />
-      <stop offset="100%" stop-color="#FFA843" />
+      <stop offset="0%" stop-color="#1E40AF" />
+      <stop offset="100%" stop-color="#3B82F6" />
     </linearGradient>
     <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#000027" />
       <stop offset="100%" stop-color="#14144b" />
     </linearGradient>
     <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="15" stdDeviation="25" flood-color="#FC5E1F" flood-opacity="0.25"/>
+      <feDropShadow dx="0" dy="15" stdDeviation="25" flood-color="#1E40AF" flood-opacity="0.25"/>
     </filter>
   </defs>
   <!-- Background Shape -->
   <circle cx="300" cy="330" r="230" fill="url(#circleGrad)" filter="url(#shadow)"/>
-  <circle cx="480" cy="180" r="45" fill="#FFE5D9" opacity="0.6"/>
-  <circle cx="120" cy="460" r="28" fill="#FFF2EC" opacity="0.8"/>
+  <circle cx="480" cy="180" r="45" fill="#DBEAFE" opacity="0.6"/>
+  <circle cx="120" cy="460" r="28" fill="#EFF6FF" opacity="0.8"/>
   
   <!-- Subtle decorative grid dots -->
-  <g fill="#ffffff" opacity="0.3">
+  <g fill="#ffffff" opacity="0.35">
     <circle cx="150" cy="200" r="4"/>
     <circle cx="170" cy="200" r="4"/>
     <circle cx="190" cy="200" r="4"/>
@@ -34,8 +34,8 @@
     <!-- Shirt collar -->
     <polygon points="300,440 265,495 300,535 335,495" fill="#ffffff"/>
     <!-- Tie -->
-    <polygon points="295,495 305,495 310,590 290,590" fill="#FC5E1F"/>
-    <polygon points="292,492 308,492 305,515 295,515" fill="#e04c10"/>
+    <polygon points="295,495 305,495 310,590 290,590" fill="#2563EB"/>
+    <polygon points="292,492 308,492 305,515 295,515" fill="#1D4ED8"/>
     <!-- Lapels -->
     <path d="M 230 460 L 265 540 L 255 580 L 195 560 Z" fill="#0c0c38"/>
     <path d="M 370 460 L 335 540 L 345 580 L 405 560 Z" fill="#0c0c38"/>
@@ -66,18 +66,18 @@
   <!-- Floating Badge: Experience -->
   <g transform="translate(60, 480)">
     <rect width="180" height="68" rx="16" fill="#ffffff" filter="url(#shadow)"/>
-    <circle cx="36" cy="34" r="20" fill="#FFF2EC"/>
+    <circle cx="36" cy="34" r="20" fill="#EFF6FF"/>
     <text x="36" y="40" font-family="sans-serif" font-size="18" text-anchor="middle">⭐</text>
     <text x="68" y="30" font-family="Poppins, sans-serif" font-weight="800" font-size="16" fill="#000027">10+ Years</text>
-    <text x="68" y="48" font-family="Poppins, sans-serif" font-weight="500" font-size="11" fill="#868686">Experience</text>
+    <text x="68" y="48" font-family="Poppins, sans-serif" font-weight="500" font-size="11" fill="#718096">Experience</text>
   </g>
 
   <!-- Floating Badge: ICAI Fellow -->
   <g transform="translate(370, 160)">
     <rect width="170" height="68" rx="16" fill="#ffffff" filter="url(#shadow)"/>
-    <circle cx="36" cy="34" r="20" fill="#FFF2EC"/>
+    <circle cx="36" cy="34" r="20" fill="#EFF6FF"/>
     <text x="36" y="40" font-family="sans-serif" font-size="18" text-anchor="middle">🏆</text>
     <text x="68" y="30" font-family="Poppins, sans-serif" font-weight="800" font-size="15" fill="#000027">FCA Certified</text>
-    <text x="68" y="48" font-family="Poppins, sans-serif" font-weight="500" font-size="11" fill="#FC5E1F">ICAI Fellow Member</text>
+    <text x="68" y="48" font-family="Poppins, sans-serif" font-weight="500" font-size="11" fill="#2563EB">ICAI Fellow Member</text>
   </g>
 </svg>

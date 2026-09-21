@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
 
 :root {
-  --primary: #FC5E1F;
-  --primary-hover: #E04C10;
-  --secondary: #F48418;
+  --primary: #1A56DB;
+  --primary-hover: #1E40AF;
+  --secondary: #3B82F6;
   --dark: #000027;
   --dark-alt: #0C0C38;
   --text: #444444;
@@ -18,7 +18,7 @@
   --shadow-sm: 0 2px 4px rgba(0, 0, 39, 0.04);
   --shadow-md: 0 10px 25px -5px rgba(0, 0, 39, 0.08);
   --shadow-lg: 0 20px 30px -10px rgba(0, 0, 39, 0.12);
-  --shadow-primary: 0 12px 24px -6px rgba(252, 94, 31, 0.35);
+  --shadow-primary: 0 12px 24px -6px rgba(37, 99, 235, 0.35);
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 24px;
@@ -90,14 +90,14 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: #FFF2EC;
+  background-color: #EFF6FF;
   color: var(--primary);
   font-weight: 700;
   font-size: 0.85rem;
   padding: 8px 18px;
   border-radius: var(--radius-full);
   letter-spacing: 0.5px;
-  border: 1px solid rgba(252, 94, 31, 0.15);
+  border: 1px solid rgba(37, 99, 235, 0.15);
 }
 
 .section-eyebrow {
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary:hover {
   background-color: var(--primary-hover);
   transform: translateY(-2px);
-  box-shadow: 0 16px 28px -6px rgba(252, 94, 31, 0.45);
+  box-shadow: 0 16px 28px -6px rgba(37, 99, 235, 0.45);
 }
 
 .btn-outline {
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-outline:hover {
   border-color: var(--primary);
   color: var(--primary);
-  background-color: #FFF2EC;
+  background-color: #EFF6FF;
   transform: translateY(-2px);
 }
 
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: #FFF2EC;
+  background: #EFF6FF;
   color: var(--primary);
   display: flex;
   align-items: center;
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .service-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(252, 94, 31, 0.3);
+  border-color: rgba(37, 99, 235, 0.3);
   box-shadow: var(--shadow-lg);
 }
 
@@ -459,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 60px;
   height: 60px;
   border-radius: 16px;
-  background-color: #FFF2EC;
+  background-color: #EFF6FF;
   color: var(--primary);
   display: flex;
   align-items: center;
@@ -535,9 +535,9 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(252, 94, 31, 0.2);
-  color: #FFA843;
-  border: 1px solid rgba(252, 94, 31, 0.4);
+  background: rgba(37, 99, 235, 0.2);
+  color: #60A5FA;
+  border: 1px solid rgba(37, 99, 235, 0.4);
   padding: 6px 14px;
   border-radius: var(--radius-full);
   font-size: 0.82rem;
@@ -630,7 +630,7 @@ h1, h2, h3, h4, h5, h6 {
 .testimonial-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-md);
-  border-color: rgba(252, 94, 31, 0.2);
+  border-color: rgba(37, 99, 235, 0.2);
 }
 
 .testimonial-stars {
@@ -702,7 +702,7 @@ h1, h2, h3, h4, h5, h6 {
 .blog-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
-  border-color: rgba(252, 94, 31, 0.3);
+  border-color: rgba(37, 99, 235, 0.3);
 }
 
 .blog-thumb-link {
@@ -788,7 +788,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .lead-cta-box {
-  background: radial-gradient(circle at top right, rgba(252, 94, 31, 0.25), transparent 70%);
+  background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.25), transparent 70%);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-lg);
   padding: 60px 48px;
@@ -801,7 +801,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .lead-cta-badge {
   display: inline-block;
-  color: #FFA843;
+  color: #60A5FA;
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 1.5px;
@@ -1038,7 +1038,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .form-control:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(252, 94, 31, 0.15);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
 .form-row {
