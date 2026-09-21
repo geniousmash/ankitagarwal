@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CA Ankit Agrawal - Chartered Accountant & Financial Advisory</title>
+  <meta name="description" content="Official website of CA Ankit Agrawal, Fellow Chartered Accountant (FCA). Helping businesses, startups, and individuals with tax planning, GST, audits, and Virtual CFO advisory.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Header / Navbar (Mirroring mdumarkhan.com Kadence Sticky Header)
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="CA Ankit Agrawal Home">
+        <img src="assets/images/logo.svg" alt="CA Ankit Agrawal" height="48" style="height: 48px; width: auto;">
+      </a>
+
+      <!-- Desktop & Mobile Navigation Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="blog.html" class="nav-link">Insights</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-wrap">
+        <button class="btn btn-primary btn-sm open-consultation-modal" data-service="General Consultation">
+          Book Consultation
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       Hero Section (Split Layout with Eyebrow Pill, Bold H1, & Visual Cutout)
+       ========================================================================= -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="pill-badge">
+          <span>💼</span> Your Trusted Financial & Tax Partner 😉
+        </div>
+
+        <h1 class="hero-title">
+          👋 Hey! I'm <span class="text-primary">CA Ankit</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          A Fellow Chartered Accountant helping businesses, ambitious startups, and leaders harness strategic tax planning and robust compliance to scale their enterprise with complete peace of mind!
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary open-consultation-modal" data-service="Free Tax Assessment">
+            Get Free Tax Assessment 👇
+          </button>
+          <a href="#services" class="btn btn-outline">
+            Explore My Work →
+          </a>
+        </div>
+
+        <!-- Trust Badges -->
+        <div class="hero-trust-badges">
+          <div class="trust-item">
+            <div class="trust-icon">⭐</div>
+            <div>
+              <div class="trust-text-val">10+ Years</div>
+              <div class="trust-text-sub">Advisory Experience</div>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">📈</div>
+            <div>
+              <div class="trust-text-val">500+</div>
+              <div class="trust-text-sub">Clients Advised</div>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">🛡️</div>
+            <div>
+              <div class="trust-text-val">100%</div>
+              <div class="trust-text-sub">Regulatory Compliance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Visual Portrait -->
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="assets/images/ca-hero.svg" alt="CA Ankit Agrawal - Chartered Accountant" width="540" height="580">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Trust / Clients Strip ("Companies I've Worked With")
+       ========================================================================= -->
+  <section class="trust-strip-section">
+    <div class="container">
+      <div class="trust-strip-title">Companies & High-Growth Startups We've Advised</div>
+      <div class="client-logos-grid">
+        <img src="assets/images/client1.svg" alt="FinTech Nexus" class="client-logo-item">
+        <img src="assets/images/client2.svg" alt="Apex Logistics" class="client-logo-item">
+        <img src="assets/images/client3.svg" alt="Kaveri Retail" class="client-logo-item">
+        <img src="assets/images/client4.svg" alt="Zenith Health" class="client-logo-item">
+        <img src="assets/images/client5.svg" alt="Bharat Buildcon" class="client-logo-item">
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Services Section ("My Work" - 6 Core Pillars)
+       ========================================================================= -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-eyebrow">My Work</span>
+        <h2 class="section-title">
+          I'm on a mission to help businesses grow faster and stay 100% compliant!
+        </h2>
+        <p class="section-desc">
+          With over a decade of hands-on experience in taxation, corporate audits, and financial engineering, I craft bespoke accounting solutions that safeguard profits and eliminate legal risks.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- 1. Income Tax & Wealth -->
+        <div class="service-card">
+          <div class="service-icon-box">📊</div>
+          <h3 class="service-card-title">Income Tax & Wealth Planning</h3>
+          <p class="service-card-desc">
+            By optimizing your tax structures, executing accurate ITR filings, and representing your case during scrutiny assessments, I ensure maximum tax savings and zero compliance headaches.
+          </p>
+          <a href="#" class="service-card-link open-consultation-modal" data-service="Income Tax Planning">
+            Learn More <span>→</span>
+          </a>
+        </div>
+
+        <!-- 2. GST Advisory & Compliance -->
+        <div class="service-card">
+          <div class="service-icon-box">📑</div>
+          <h3 class="service-card-title">GST Advisory & Compliance</h3>
+          <p class="service-card-desc">
+            From new registrations and monthly GSTR-1/3B filings to Input Tax Credit (ITC) optimization and department audits, I keep your indirect taxes completely airtight.
+          </p>
+          <a href="#" class="service-card-link open-consultation-modal" data-service="GST Advisory">
+            Learn More <span>→</span>
+          </a>
+        </div>
+
+        <!-- 3. Company Incorporation & Startup -->
+        <div class="service-card">
+          <div class="service-icon-box">🚀</div>
+          <h3 class="service-card-title">Startup & Incorporation</h3>
+          <p class="service-card-desc">
+            If you are launching a new venture, I handle complete Private Limited/LLP setup, DPIIT startup recognition, seed stage pitch financials, and ROC statutory filings.
+          </p>
+          <a href="#" class="service-card-link open-consultation-modal" data-service="Startup Incorporation">
+            Learn More <span>→</span>
+          </a>
+        </div>
+
+        <!-- 4. Statutory & Tax Audits -->
+        <div class="service-card">
+          <div class="service-icon-box">🔍</div>
+          <h3 class="service-card-title">Statutory & Tax Audits</h3>
+          <p class="service-card-desc">
+            From Section 44AB tax audits to comprehensive statutory company audits, I ensure your books meet strict ICAI standards and provide clear visibility into your financial health.
+          </p>
+          <a href="#" class="service-card-link open-consultation-modal" data-service="Statutory Audits">
+            Learn More <span>→</span>
+          </a>
+        </div>
+
+        <!-- 5. Virtual CFO & Financial Modeling -->
+        <div class="service-card">
+          <div class="service-icon-box">💎</div>
+          <h3 class="service-card-title">Virtual CFO & Strategy</h3>
+          <p class="service-card-desc">
+            Get executive-level financial leadership on a fractional basis: dynamic cash flow forecasts, unit economics modeling, investor reporting, and strategic budgeting.
+          </p>
+          <a href="#" class="service-card-link open-consultation-modal" data-service="Virtual CFO Services">
+            Learn More <span>→</span>
+          </a>
+        </div>
+
+        <!-- 6. Bookkeeping, TDS & Payroll -->
+        <div class="service-card">
+          <div class="service-icon-box">⚡</div>
+          <h3 class="service-card-title">Bookkeeping & Payroll</h3>
+          <p class="service-card-desc">
+            Through automated cloud accounting (Tally, Zoho Books, QuickBooks), monthly TDS compliance, and seamless payroll processing, your daily operations stay effortless.
+          </p>
+          <a href="#" class="service-card-link open-consultation-modal" data-service="Bookkeeping & Payroll">
+            Learn More <span>→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       About Section ("About Me" - Mirroring Umar's Experience Highlight)
+       ========================================================================= -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-image-card">
+        <div class="about-card-badge">✨ ICAI Credentialed Practice</div>
+        <h3 style="color: #ffffff; font-size: 2rem; margin-bottom: 16px;">
+          Strategic Advisory Grounded in Integrity & Precision.
+        </h3>
+        <p style="color: #CBD5E1; font-size: 1rem; line-height: 1.8;">
+          "In financial stewardship, precision is not just a skill—it is our fiduciary responsibility to every founder and business owner who trusts us with their vision."
+        </p>
+
+        <div class="about-card-stats">
+          <div>
+            <div class="stat-box-num">10+</div>
+            <div class="stat-box-label">Years of Professional Practice</div>
+          </div>
+          <div>
+            <div class="stat-box-num">500+</div>
+            <div class="stat-box-label">Businesses & Startups Advised</div>
+          </div>
+          <div>
+            <div class="stat-box-num">₹150Cr+</div>
+            <div class="stat-box-label">Tax & Audit Volume Handled</div>
+          </div>
+          <div>
+            <div class="stat-box-num">99.8%</div>
+            <div class="stat-box-label">On-Time Statutory Filing Rate</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="section-eyebrow">About Me</span>
+        <h2>10-Years of Driving Financial Growth & Regulatory Peace of Mind!</h2>
+        <p class="about-text">
+          For the last decade, I’ve partnered with enterprise brands, ambitious tech startups, and family-owned conglomerates across India—driving tax efficiency, regulatory compliance, and scalable financial structures.
+        </p>
+        <p class="about-text">
+          From proactive tax planning and scrutiny dispute defense to investor-grade financial reporting, I take complete charge of the numbers so that founders and management teams can focus on growth and customer value!
+        </p>
+
+        <ul class="about-bullets">
+          <li class="about-bullet-item">
+            <span class="bullet-check">✓</span>
+            <span>Direct partner-led consultation with no junior delegation.</span>
+          </li>
+          <li class="about-bullet-item">
+            <span class="bullet-check">✓</span>
+            <span>Zero-penalty track record across 10 years of statutory filings.</span>
+          </li>
+          <li class="about-bullet-item">
+            <span class="bullet-check">✓</span>
+            <span>Modern tech stack: cloud accounting, automated reconciliation & dashboards.</span>
+          </li>
+        </ul>
+
+        <div>
+          <button class="btn btn-primary open-consultation-modal" data-service="Discovery Call">
+            Schedule a Discovery Call →
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Testimonials ("What People Say" - Mirroring Umar Khan)
+       ========================================================================= -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-eyebrow">Client Feedback</span>
+        <h2 class="section-title">What People Say</h2>
+        <p class="section-desc">
+          Hear from founders, directors, and finance heads whose enterprises rely on our ongoing advisory and audit counsel.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "Working with CA Ankit Agrawal on our tax planning and GST restructuring has been an absolute game changer. He helped us identify key Input Tax Credit reconciliations that saved us over ₹18 Lakhs in the first quarter alone."
+          </p>
+          <div class="testimonial-author">
+            <img src="assets/images/avatar1.svg" alt="Rajesh Singhania" class="author-avatar">
+            <div>
+              <div class="author-name">Rajesh Singhania</div>
+              <div class="author-role">Founder, FinTech Nexus</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "I can’t recommend CA Ankit Agrawal enough for corporate audits and statutory compliance. His attention to detail, responsiveness, and prompt resolution of tricky ROC matters have given our board tremendous confidence."
+          </p>
+          <div class="testimonial-author">
+            <img src="assets/images/avatar2.svg" alt="Pooja Malhotra" class="author-avatar">
+            <div>
+              <div class="author-name">Pooja Malhotra</div>
+              <div class="author-role">Director, Apex Global Logistics</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "CA Ankit is a true virtual CFO for our multi-channel e-commerce brand. He quickly streamlined our TDS filings, automated our monthly books, and built a dynamic 3-year cash flow model that helped us secure our Series-A funding."
+          </p>
+          <div class="testimonial-author">
+            <img src="assets/images/avatar3.svg" alt="Vikramaditya Rao" class="author-avatar">
+            <div>
+              <div class="author-name">Vikramaditya Rao</div>
+              <div class="author-role">CEO, Bharat E-Commerce Labs</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Blog / Resources ("Latest Insightful Resources" - Mirroring Umar Khan)
+       ========================================================================= -->
+  <section class="blog-section" id="blog">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="section-eyebrow">Blog & Knowledge Hub</span>
+        <h2 class="section-title">Latest Insightful Resources</h2>
+        <p class="section-desc">
+          Practical briefings, tax advisories, and financial guides curated specifically for Indian business owners and startup founders.
+        </p>
+      </div>
+
+      <div class="blog-grid">
+        <!-- Article 1 -->
+        <article class="blog-card">
+          <a href="blog.html#post-1" class="blog-thumb-link">
+            <img src="assets/images/blog1.svg" alt="Tax Planning Strategies" class="blog-thumb-img">
+          </a>
+          <div class="blog-card-content">
+            <div class="blog-meta">
+              <span class="blog-tag">Income Tax</span>
+              <span>•</span>
+              <span>Updated September 2026</span>
+            </div>
+            <h3 class="blog-title">
+              <a href="blog.html#post-1">Key Tax Saving Strategies for FY 2025-26: New vs Old Regime</a>
+            </h3>
+            <p class="blog-excerpt">
+              A comprehensive breakdown of corporate deductions, slab restructuring, and how founders can legally minimize overall liability.
+            </p>
+            <a href="blog.html#post-1" class="blog-read-more">Read Full Guide →</a>
+          </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="blog-card">
+          <a href="blog.html#post-2" class="blog-thumb-link">
+            <img src="assets/images/blog2.svg" alt="GST Startup Checklist" class="blog-thumb-img">
+          </a>
+          <div class="blog-card-content">
+            <div class="blog-meta">
+              <span class="blog-tag">GST Compliance</span>
+              <span>•</span>
+              <span>Updated August 2026</span>
+            </div>
+            <h3 class="blog-title">
+              <a href="blog.html#post-2">The Complete GST Compliance Checklist for Fast-Growing Startups</a>
+            </h3>
+            <p class="blog-excerpt">
+              Learn how to avoid ITC mismatches, master e-invoicing thresholds, and ensure flawless GSTR-9 annual reconciliations.
+            </p>
+            <a href="blog.html#post-2" class="blog-read-more">Read Full Guide →</a>
+          </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="blog-card">
+          <a href="blog.html#post-3" class="blog-thumb-link">
+            <img src="assets/images/blog3.svg" alt="Income Tax Scrutiny Notice" class="blog-thumb-img">
+          </a>
+          <div class="blog-card-content">
+            <div class="blog-meta">
+              <span class="blog-tag">Tax Defense</span>
+              <span>•</span>
+              <span>Updated July 2026</span>
+            </div>
+            <h3 class="blog-title">
+              <a href="blog.html#post-3">Received an Income Tax Notice? 5 Steps to Take Immediately</a>
+            </h3>
+            <p class="blog-excerpt">
+              Practical guidance on dissecting Section 143(1) and 148 notices, compiling audit trails, and presenting airtight replies.
+            </p>
+            <a href="blog.html#post-3" class="blog-read-more">Read Full Guide →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Lead Magnet CTA Banner (Mirroring Umar's "Get Your Free Site Audit 👇")
+       ========================================================================= -->
+  <section class="lead-cta-section">
+    <div class="container">
+      <div class="lead-cta-box">
+        <span class="lead-cta-badge">Speed up Your Financial Growth! 🚀</span>
+        <h2 class="lead-cta-title">
+          Ready for Complete Financial Clarity?
+          <br>
+          <span style="color: #FC5E1F;">Get Your Free 30-Min Tax & Compliance Health Check 👇</span>
+        </h2>
+        <p class="lead-cta-desc">
+          Uncover hidden tax leakages, review your current filing hygiene, and receive an actionable 3-point growth roadmap prepared directly by CA Ankit Agrawal.
+        </p>
+
+        <div class="lead-cta-actions">
+          <button class="btn btn-primary open-consultation-modal" data-service="Free Tax Health Check" style="padding: 16px 36px; font-size: 1.05rem;">
+            GET STARTED NOW
+          </button>
+          <a href="https://wa.me/919876543210?text=Hello%20CA%20Ankit,%20I%20would%20like%20to%20claim%20the%20Free%20Tax%20Health%20Check." target="_blank" class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.3);">
+            💬 Quick Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Footer (Mirroring Umar Khan Footer Layout)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Bio & Socials -->
+        <div>
+          <img src="assets/images/logo.svg" alt="CA Ankit Agrawal" height="42" style="height: 42px; width: auto; filter: brightness(0) invert(1);">
+          <p class="footer-brand-desc">
+            CA Ankit Agrawal is a Fellow Chartered Accountant (FCA) based in India, specializing in strategic corporate tax planning, GST compliance, audits, and Virtual CFO advisory for ambitious enterprises.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://linkedin.com" target="_blank" class="social-btn" aria-label="LinkedIn">in</a>
+            <a href="https://twitter.com" target="_blank" class="social-btn" aria-label="Twitter">𝕏</a>
+            <a href="https://instagram.com" target="_blank" class="social-btn" aria-label="Instagram">📸</a>
+            <a href="https://wa.me/919876543210" target="_blank" class="social-btn" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About CA Ankit</a></li>
+            <li><a href="services.html" class="footer-link">Practice Areas</a></li>
+            <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+            <li><a href="blog.html" class="footer-link">Tax Resources</a></li>
+            <li><a href="contact.html" class="footer-link">Schedule Meeting</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Practice Areas -->
+        <div>
+          <h4 class="footer-col-title">Practice Areas</h4>
+          <ul class="footer-links-list">
+            <li><a href="services.html#tax" class="footer-link">Income Tax & ITR Filing</a></li>
+            <li><a href="services.html#gst" class="footer-link">GST Audit & Filing</a></li>
+            <li><a href="services.html#startup" class="footer-link">Startup Incorporation</a></li>
+            <li><a href="services.html#audit" class="footer-link">Statutory & Tax Audits</a></li>
+            <li><a href="services.html#cfo" class="footer-link">Virtual CFO Advisory</a></li>
+            <li><a href="services.html#payroll" class="footer-link">TDS & Payroll Management</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Newsletter Box -->
+        <div>
+          <h4 class="footer-col-title">Stay Informed</h4>
+          <p class="footer-brand-desc" style="margin-top: 0; margin-bottom: 14px;">
+            Be the first to know when important tax deadlines approach and new circulars are notified. Expect only 1 or 2 high-value emails a month.
+          </p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" class="newsletter-input" placeholder="Your work email address..." required>
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe Free</button>
+            <span class="newsletter-subtext">🔒 I promise I won't spam you. Unsubscribe anytime.</span>
+          </form>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          © 2026 CA Ankit Agrawal. All Rights Reserved. Chartered Accountant.
+        </div>
+        <div style="display: flex; gap: 20px;">
+          <a href="#" class="footer-link" style="font-size: 0.82rem;">Privacy Policy</a>
+          <a href="#" class="footer-link" style="font-size: 0.82rem;">Terms of Engagement</a>
+          <a href="#" class="footer-link" style="font-size: 0.82rem;">ICAI Code of Ethics</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Interactive Consultation Booking Modal (Mirroring Umar's Lead Modal)
+       ========================================================================= -->
+  <div class="modal-overlay" id="consultationModal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">✕</button>
+      
+      <div style="margin-bottom: 24px;">
+        <span class="pill-badge" style="margin-bottom: 10px;">Fast Response Guarantee</span>
+        <h3 style="font-size: 1.7rem; color: #000027; margin-bottom: 8px;">Book a Consultation with CA Ankit Agrawal</h3>
+        <p style="color: #718096; font-size: 0.92rem;">
+          Fill out the quick form below to request a callback or direct WhatsApp review within 2 business hours.
+        </p>
+      </div>
+
+      <form id="consultationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="clientName">Full Name *</label>
+            <input type="text" id="clientName" class="form-control" placeholder="e.g. Rahul Sharma" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="clientPhone">Phone / WhatsApp Number *</label>
+            <input type="tel" id="clientPhone" class="form-control" placeholder="+91 98765 43210" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="clientEmail">Email Address *</label>
+            <input type="email" id="clientEmail" class="form-control" placeholder="rahul@company.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="consultationService">Service Required *</label>
+            <select id="consultationService" class="form-control" required>
+              <option value="Income Tax Planning">Income Tax Planning & Filing</option>
+              <option value="GST Advisory">GST Compliance & Filing</option>
+              <option value="Startup Incorporation">Company / LLP Incorporation</option>
+              <option value="Statutory Audits">Statutory & Tax Audits</option>
+              <option value="Virtual CFO Services">Virtual CFO & Financial Modeling</option>
+              <option value="Bookkeeping & Payroll">Bookkeeping & Payroll Management</option>
+              <option value="Free Tax Assessment">Free 30-Min Tax Health Check</option>
+              <option value="General Consultation">General Financial Consultation</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="clientNotes">Brief Requirements or Questions</label>
+          <textarea id="clientNotes" class="form-control" rows="3" placeholder="Tell us about your company, annual turnover, or specific compliance questions..."></textarea>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 24px;">
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            Submit Consultation Request →
+          </button>
+          <button type="button" id="submitViaWhatsApp" class="btn btn-outline" style="width: 100%; border-color: #25D366; color: #15803D;">
+            💬 Connect Immediately on WhatsApp
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/919876543210?text=Hello%20CA%20Ankit,%20I%20would%20like%20to%20discuss%20financial%20services%20for%20my%20business." target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    💬
+  </a>
+
+  <!-- Script Bundle -->
+  <script src="js/main.js"></script>
+</body>
+</html>

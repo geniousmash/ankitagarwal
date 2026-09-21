@@ -1,0 +1,20 @@
+{
+  "name": "ca-ankit-agrawal-website",
+  "version": "1.0.0",
+  "description": "Official website for CA Ankit Agrawal, modeled after mdumarkhan.com",
+  "scripts": {
+    "dev": "npx -y serve . -p 8080",
+    "start": "python3 -m http.server 8080",
+    "serve": "npx -y serve . -p 8080",
+    "port8000": "python3 -m http.server 8000",
+    "port3001": "python3 -m http.server 3001"
+  },
+  "keywords": [
+    "chartered-accountant",
+    "ca-website",
+    "portfolio",
+    "tax-consulting"
+  ],
+  "author": "CA Ankit Agrawal",
+  "license": "MIT"
+}

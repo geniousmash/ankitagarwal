@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Areas & Services - CA Ankit Agrawal</title>
+  <meta name="description" content="Comprehensive accounting, taxation, GST, company incorporation, statutory audits, and Virtual CFO services offered by CA Ankit Agrawal.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="CA Ankit Agrawal Home">
+        <img src="assets/images/logo.svg" alt="CA Ankit Agrawal" height="48" style="height: 48px; width: auto;">
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link active">Services</a></li>
+          <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="blog.html" class="nav-link">Insights</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-wrap">
+        <button class="btn btn-primary btn-sm open-consultation-modal">Book Consultation</button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="pill-badge" style="margin-bottom: 14px;">Specialized Advisory</span>
+      <h1 class="page-hero-title">Practice Areas & <span class="text-primary">Capabilities</span></h1>
+      <p class="page-hero-subtitle">
+        Tailored solutions designed for Indian private limited companies, high-growth startups, and visionary founders.
+      </p>
+    </div>
+  </section>
+
+  <!-- Detailed Service Showcase -->
+  <section class="services-section">
+    <div class="container">
+      <div class="services-grid" style="grid-template-columns: repeat(2, 1fr); gap: 40px;">
+        
+        <!-- 1. Income Tax -->
+        <div class="service-card" id="tax">
+          <div class="service-icon-box">📊</div>
+          <h2 class="service-card-title" style="font-size: 1.6rem;">1. Income Tax Planning & Defense</h2>
+          <p class="service-card-desc">
+            Strategic tax planning ensures you never pay a single rupee more than legally mandated. We manage everything from advance tax scheduling to appellate defense.
+          </p>
+          <ul class="about-bullets" style="margin-bottom: 24px;">
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Corporate & Individual ITR preparation and e-filing</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Capital gains restructuring & real estate tax advice</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Faceless assessment replies & Section 148 notice defense</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Transfer pricing studies & international tax documentation</li>
+          </ul>
+          <button class="btn btn-primary btn-sm open-consultation-modal" data-service="Income Tax Planning">
+            Consult on Income Tax →
+          </button>
+        </div>
+
+        <!-- 2. GST Advisory -->
+        <div class="service-card" id="gst">
+          <div class="service-icon-box">📑</div>
+          <h2 class="service-card-title" style="font-size: 1.6rem;">2. GST Advisory & Audit Services</h2>
+          <p class="service-card-desc">
+            With GST regulations evolving continuously, errors in Input Tax Credit (ITC) or classification can invite severe penalties. We build an impenetrable compliance shield.
+          </p>
+          <ul class="about-bullets" style="margin-bottom: 24px;">
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Monthly GSTR-1 & GSTR-3B filings with 2B reconciliation</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> GSTR-9 annual return & GSTR-9C reconciliation statements</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Export refund processing & inverted duty structure claims</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Departmental show cause notice (DRC-01) representation</li>
+          </ul>
+          <button class="btn btn-primary btn-sm open-consultation-modal" data-service="GST Advisory">
+            Consult on GST →
+          </button>
+        </div>
+
+        <!-- 3. Startup & Incorporation -->
+        <div class="service-card" id="startup">
+          <div class="service-icon-box">🚀</div>
+          <h2 class="service-card-title" style="font-size: 1.6rem;">3. Startup Incorporation & ROC</h2>
+          <p class="service-card-desc">
+            Turn your entrepreneurial vision into an incorporated reality in days, backed by investor-grade equity structuring and official startup certification.
+          </p>
+          <ul class="about-bullets" style="margin-bottom: 24px;">
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> SPICe+ Pvt Ltd, LLP, and OPC incorporations</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> DPIIT recognition for Section 80-IAC angel tax exemption</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> SHA & Founders' agreement cap table advisory</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Annual MCA ROC compliances (AOC-4, MGT-7, DIR-3 KYC)</li>
+          </ul>
+          <button class="btn btn-primary btn-sm open-consultation-modal" data-service="Startup Incorporation">
+            Incorporate Your Venture →
+          </button>
+        </div>
+
+        <!-- 4. Statutory Audits -->
+        <div class="service-card" id="audit">
+          <div class="service-icon-box">🔍</div>
+          <h2 class="service-card-title" style="font-size: 1.6rem;">4. Statutory & Internal Audits</h2>
+          <p class="service-card-desc">
+            Robust auditing builds trust with stakeholders, banks, and potential investors while revealing internal leakages before they hurt cash flow.
+          </p>
+          <ul class="about-bullets" style="margin-bottom: 24px;">
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Statutory audits under the Companies Act, 2013</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Section 44AB tax audit reports (Form 3CA / 3CB / 3CD)</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Internal financial controls & operational risk review</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Stock audits & bank forensic review compliance</li>
+          </ul>
+          <button class="btn btn-primary btn-sm open-consultation-modal" data-service="Statutory Audits">
+            Book an Audit Review →
+          </button>
+        </div>
+
+        <!-- 5. Virtual CFO -->
+        <div class="service-card" id="cfo">
+          <div class="service-icon-box">💎</div>
+          <h2 class="service-card-title" style="font-size: 1.6rem;">5. Virtual CFO & Financial Modeling</h2>
+          <p class="service-card-desc">
+            Access senior financial strategy without the overhead of an expensive full-time executive. We serve as your trusted co-pilot in capital allocation.
+          </p>
+          <ul class="about-bullets" style="margin-bottom: 24px;">
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> 5-year dynamic financial projections & DCF valuation</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Monthly executive MIS dashboards & KPI tracking</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Working capital & burn-rate runway management</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Preparation for venture debt & Series A due diligence</li>
+          </ul>
+          <button class="btn btn-primary btn-sm open-consultation-modal" data-service="Virtual CFO Services">
+            Hire Virtual CFO →
+          </button>
+        </div>
+
+        <!-- 6. Bookkeeping & Payroll -->
+        <div class="service-card" id="payroll">
+          <div class="service-icon-box">⚡</div>
+          <h2 class="service-card-title" style="font-size: 1.6rem;">6. Cloud Bookkeeping & Payroll</h2>
+          <p class="service-card-desc">
+            Transform messy spreadsheets into pristine, real-time ledgers on automated cloud accounting software, fully synced with payroll and tax filings.
+          </p>
+          <ul class="about-bullets" style="margin-bottom: 24px;">
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Setup on Zoho Books, TallyPrime, or QuickBooks</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Monthly TDS calculation, deposit challans & Form 26Q/24Q</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Automated payroll processing, payslips & PF/ESIC compliances</li>
+            <li class="about-bullet-item"><span class="bullet-check">✓</span> Vendor aging analysis & bank account reconciliation</li>
+          </ul>
+          <button class="btn btn-primary btn-sm open-consultation-modal" data-service="Bookkeeping & Payroll">
+            Outsource Accounting →
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead CTA -->
+  <section class="lead-cta-section">
+    <div class="container">
+      <div class="lead-cta-box">
+        <span class="lead-cta-badge">Custom Engagements</span>
+        <h2 class="lead-cta-title">Need a Custom Retainer for Your Business?</h2>
+        <p class="lead-cta-desc">
+          We construct tailored monthly and annual advisory retainers specifically aligned with your company's growth stage and turnover.
+        </p>
+        <button class="btn btn-primary open-consultation-modal" data-service="Custom Retainer Discussion" style="padding: 16px 36px;">
+          Discuss Retainer Packages →
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom-bar" style="border-top: none; padding-top: 0;">
+        <div>© 2026 CA Ankit Agrawal. All Rights Reserved.</div>
+        <div><a href="index.html" class="footer-link">Back to Home</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="consultationModal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn">✕</button>
+      <h3 style="font-size: 1.6rem; color: #000027; margin-bottom: 8px;">Schedule a Consultation</h3>
+      <p style="color: #718096; font-size: 0.92rem; margin-bottom: 20px;">Let us know how we can support your business.</p>
+      <form id="consultationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="clientName">Your Name *</label>
+            <input type="text" id="clientName" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="clientPhone">Phone *</label>
+            <input type="tel" id="clientPhone" class="form-control" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="clientEmail">Email *</label>
+          <input type="email" id="clientEmail" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="consultationService">Selected Service</label>
+          <input type="text" id="consultationService" class="form-control" readonly>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">Confirm Consultation</button>
+      </form>
+    </div>
+  </div>
+
+  <a href="https://wa.me/919876543210?text=Hello%20CA%20Ankit,%20I%20have%20an%20inquiry%20regarding%20your%20services." target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">💬</a>
+  <script src="js/main.js"></script>
+</body>
+</html>
